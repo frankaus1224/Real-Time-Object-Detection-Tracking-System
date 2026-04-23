@@ -16,7 +16,7 @@ results = model.predict(source=0, show=True, stream=True)
 
 # Keep the program running until the 'q' key is pressed
 for r in results:
-    print(f"FPS: {1000 / r.speed['inference']:.1f}") # 計算每秒跑幾張
+    print(f"FPS: {1000 / r.speed['inference']:.1f}") # Calculate and display the Frames Per Second (FPS)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
