@@ -1,4 +1,8 @@
-ultralytics
-opencv-python
-torch
-torchvision
+```text
+# Core AI & Vision
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+
+# Deep Learning Framework (MPS Supported)
+torch>=2.0.0
+torchvision>=0.15.0
